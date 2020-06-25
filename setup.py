@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="Liubaolin20070125@outlook.com",
     description="A packages for Dominate.Make your websiteuse Layui.",
     long_description=long_description,
-    long_description_content_type="text.markdown",
+    long_description_content_type="text/markdown",
     url="https://github.com/BugMaker-project/Dominate_Layui",
     packages=["Dominate_Layui"],
     include_package_data=True,
