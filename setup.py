@@ -1,22 +1,22 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r",encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="Dominate_Layui", 
-    version="V0.1Beta",
+    version="0.0.1a",
     author="BM-Business-Dev-Liu",
     author_email="Liubaolin20070125@outlook.com",
     description="A packages for Dominate.Make your websiteuse Layui.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/BugMaker-project/Dominate_Layui",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU General Public License v3",
-        "Operating System :: Microsoft :: Windows ::Windows 10",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Operating System :: Microsoft ",
     ],
     python_requires='>=3',
 )

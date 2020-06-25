@@ -117,7 +117,7 @@ def __copyFiles(sourceDir,targetDir):
     COUNTS=0
     
 def __StaticGot():
-    """拷贝所有的静态资源到当前目录."""
+    """Copy all static resources to the current directory"""
     path=os.path.dirname(Dominate_Layui.static.__file__)
     __copyFiles(path,"static")
     os.remove("static/__init__.py")
