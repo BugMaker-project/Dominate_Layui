@@ -8,8 +8,10 @@ Now we have several JavaScript functions：<br>
 - LoadsBox(style = null, Second)
 - CloseBox(ObjBox)
 - CloseAllBox(BoxType = null)
+- IframeBox(url, scrollBar = true)
+<br><br>
 If you can use Layui,You can write your func at Init.js<br>
-There are also several Python functions<br>
+There are also several Python functions<br><br>
 - class HTMLDocument
 - linkInit(doc:HTMLDocument)
 - FuncBtnAdd(doc:HTMLDocument,title:str,color:str="primary",radius:str="null",fluid:str="none",size:str="nr",onClick:str=None)

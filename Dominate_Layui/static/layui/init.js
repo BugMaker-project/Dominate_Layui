@@ -27,7 +27,7 @@ function AlertBox(str) {
     return layer.alert(str);
 }
 
-function LoadsBox(style = null, Second) {
+function LoadsBox(style = null, Second = 1) {
     if (style == null) {
         style = __$RANDOM(0, 2);
         console.log(style);
@@ -49,3 +49,16 @@ function CloseAllBox(BoxType = null) {
         return null;
     }
 }
+
+function IframeBox(url, scrollBar = true) {
+    if (scrollBar == true) {
+        layer.open({
+            type: 2,
+            content: url
+        })
+    } else if (scrollBar == false) {
+        layer.open({
+            type: 2,
+            content: ['http://sentsin.com', "no"]
+        })
+    }

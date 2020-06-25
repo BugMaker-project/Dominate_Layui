@@ -122,7 +122,6 @@ def __StaticGot():
     __copyFiles(path,"static")
     os.remove("static/__init__.py")
     shutil.rmtree("static/__pycache__")
-    
 if "__main__"==__name__:
     Test=HTMLDocument()
     linkInit(Test)
