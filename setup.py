@@ -5,7 +5,7 @@ with open("README.md", "r",encoding="utf-8") as fh:
 
 setuptools.setup(
     name="Dominate_Layui", 
-    version="0.0.1-1",
+    version="0.0.1-2",
     author="BM-Business-Dev-Liu",
     author_email="Liubaolin20070125@outlook.com",
     description="A packages for Dominate.Make your websiteuse Layui.",
