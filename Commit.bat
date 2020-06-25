@@ -1,4 +1,4 @@
-python setup.py sdist bdist_wheel
+python setup.py bdist bdist_wheel
 twine upload dist/*
 git add .
 git commit -m "PULL"
