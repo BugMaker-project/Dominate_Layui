@@ -1,1 +1,1 @@
-include /static/layui/.
+global-include * 
