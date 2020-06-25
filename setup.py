@@ -5,10 +5,10 @@ with open("README.md", "r",encoding="utf-8") as fh:
 
 setuptools.setup(
     name="Dominate_Layui", 
-    version="1.0.0-1",
+    version="2020.6.25-1",
     author="BM-Business-Dev-Liu",
     author_email="Liubaolin20070125@outlook.com",
-    description="A packages for Dominate.Make your websiteuse Layui.",
+    description="A packages for Dominate.Make your website by Layui.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/BugMaker-project/Dominate_Layui",
